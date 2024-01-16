@@ -1,17 +1,17 @@
 Lab Report 1 - Remote Access and FileSystem
 ===========================================
 
-![Image](cdNoArguments.png)
-Working directory: /home
-The terminal did not output anything, and the working directory remained the same.
+![Image](cdNoArguments.png)\
+Working directory: /home\
+The terminal did not output anything, and the working directory remained the same.\
 This happened because the working directory was already /home which is the directory that `cd` 
-without any arguments defaults to.
-The output is not an error.
-![Image](lsNoArguments.png)
-Working directory: /home
-When `ls` was used with no arguments, all the files and directories availabe from the home directory were listed.
-The terminal displayed lecture1 in blue text because it was the only directory in the home directory.
-The output is not an error.
+without any arguments defaults to.\
+The output is not an error.\
+![Image](lsNoArguments.png)\
+Working directory: /home\
+When `ls` was used with no arguments, all the files and directories availabe from the home directory were listed.\
+The terminal displayed lecture1 in blue text because it was the only directory in the home directory.\
+The output is not an error.\
 ![Image](catNoArguments.png)
 Working directory: /home
 When `cat` was used with no arguments, the empty terminal is being displayed.
