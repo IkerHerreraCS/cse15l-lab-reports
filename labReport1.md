@@ -4,7 +4,7 @@ Lab Report 1 - Remote Access and FileSystem
 ![Image](cdNoArguments.png)\
 Working directory: `/home`\
 The terminal did not output anything, and the working directory remained the same.\
-This happened because the working directory was already /home which is the directory that `cd` 
+This happened because the working directory was already `/home` which is the directory that `cd` 
 without any arguments defaults to.\
 The output is not an error.\
 ![Image](lsNoArguments.png)\
@@ -20,7 +20,7 @@ To end the command you need to use ^C.\
 The output is not an error.\
 ![Image](cdDirectory.png)\
 Working directory: `/home`\
-When `cd` was used with the argument lecture1, the working directory was changed to /home/lecture1.\
+When `cd` was used with the argument lecture1, the working directory was changed to `/home/lecture1`.\
 The output is not an error.\
 ![Image](lsDirectory.png)\
 Working directory: `/home`\
@@ -41,7 +41,7 @@ The output is an error because the command did not run successfully.\
 Working directory: `/home`\
 When `ls` is used with the argument lecture1/messages/en-us.txt, lecture1/messages/en-us.txt was outputed.\
 When you use the `ls` command with a file as an argument, the file used as an argument is outputed because it is the only file that can be listed.\
-The output is not an error.\
+The output is not an error.
 ![Image](catFile.png)\
 Working directory: `/home`\
 When `cat` is used with the argument lecture1/messages/en-us.txt, Hello World! is outputed.\
