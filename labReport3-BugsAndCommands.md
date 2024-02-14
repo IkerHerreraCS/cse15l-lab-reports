@@ -16,8 +16,8 @@
 
 }
 ```
-![Image](http://url/Non-FailureInducingInput.png)\
-![Image](http://url/FailureInducingInput.png)\
+![Image](Non-FailureInducingInput.png)\
+![Image](FailureInducingInput.png)\
 
 **Before Fix:**
 ```
