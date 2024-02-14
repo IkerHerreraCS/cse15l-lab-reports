@@ -1,4 +1,4 @@
-**Failure Inducing Input:**\
+**Failure Inducing Input:**
 ```
 @Test
   public void testReversed() {
@@ -16,10 +16,10 @@
 
 }
 ```
-![Image](http://url/Non-FailureInducingInput.png)
-![Image](http://url/FailureInducingInput.png)
+![Image](http://url/Non-FailureInducingInput.png)\
+![Image](http://url/FailureInducingInput.png)\
 
-**Before Fix:**\
+**Before Fix:**
 ```
 static int[] reversed(int[] arr) {
     int[] newArray = new int[arr.length];
@@ -29,7 +29,7 @@ static int[] reversed(int[] arr) {
     return arr;
   }
 ```
-**After Fix:**\
+**After Fix:**
 ```
 static int[] reversed(int[] arr) {
     int[] newArray = new int[arr.length];
@@ -40,7 +40,7 @@ static int[] reversed(int[] arr) {
   }
 ```
 The fix addresses the issues by switching the array being populated 
- and returning `newArray` instead of `arr`.\
+ and returning `newArray` instead of `arr`.
 
  
 
