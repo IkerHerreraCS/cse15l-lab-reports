@@ -42,7 +42,7 @@ static int[] reversed(int[] arr) {
 The fix addresses the issues by switching the array being populated 
  and returning `newArray` instead of `arr`.
 
- Part 2:
+ Part 2:\
  -----------------
  Command:
  ```
