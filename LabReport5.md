@@ -25,15 +25,15 @@ After I fixed that the tests started to pass.
 
 Info
 -------------
-File/Directory Structure:\
+**File/Directory Structure:**\
 ![Image](5FileStructure.png)\
-Contents of Files Before Bug Fix:\
+**Contents of Files Before Bug Fix:**\
 ![Image](5BeforeCode.png)\
 ![Image](5TestContent.png)\
-Bug Trigger:\
+**Bug Trigger:**\
 ![Image](5Bash.png)\
 `bash test.sh`\
-Bug Fix:\
+**Bug Fix:**\
 Went to ListExamples.java file, and on line 43,\
 changed `index1` to `index2`.
 
